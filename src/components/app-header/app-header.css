@@ -1,0 +1,20 @@
+.app-header {
+  align-items: flex-end;
+  justify-content: space-between;
+
+}
+
+.app-header h1 {
+  
+    padding-top: 20px;
+  /* width: 150px;
+  height: 150px; */
+  font-size: 80px;
+}
+
+.app-header h2 {
+
+  padding-top: 40px;
+  font-size: 1.2rem;
+  color: rgb(138, 165, 255);
+}

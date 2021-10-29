@@ -1,0 +1,70 @@
+.app-list-item {
+  font-size: 1.25rem;
+  
+  
+}
+
+.break {
+    width: 520px;
+    word-wrap:break-word;
+}
+
+
+.app-list-item button {
+  width: 35px;
+  height: 35px;
+  margin: 1px;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+  
+  
+  
+}
+.app-list-item button:focus {
+    box-shadow: none;
+    outline: none;
+}
+
+.app-list-item .btn-star {
+    color: #cab11f;
+}
+.app-list-item .btn-trash {
+    color: red;
+}
+.app-list-item .btn-edit {
+    color: rgb(17, 17, 94);
+}
+
+.app-list-item .btn-perform {
+    color: green;
+}
+
+.app-list-item .btn-checked {
+    
+    color: rgb(231, 228, 9);
+}
+
+
+.app-list-item-label {
+  display: block;
+  line-height: 35px;
+  cursor: pointer;
+  user-select: none;
+  transition: 0.5s all;
+  
+  
+}
+
+
+.app-list-item.important .app-list-item-label {
+  color: #a15d03;
+  transition: 0.1s all;
+  font-weight: bold;
+}
+
+
+
+.app-list-item.performed .btn-check {
+    color: #00ff40;
+}

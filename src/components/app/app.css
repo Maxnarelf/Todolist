@@ -1,0 +1,14 @@
+.app {
+  position: relative;
+  margin: 0 auto;
+  max-width: 800px;
+  display: flex;
+  flex-direction: column;
+  
+
+  min-height: 1000px;
+  background-color :rgb(255, 245, 245);
+  opacity: .8;
+  padding: 0 30px;
+  max-height: 90%;
+}
